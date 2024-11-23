@@ -2,6 +2,3 @@ node_modules/
 build/
 .env
 .DS_Store
-Dockerfile
-nginx.conf
-docker-compose.yml
