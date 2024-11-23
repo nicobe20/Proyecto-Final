@@ -14,7 +14,7 @@ const HomeScreen = () => {
                 const { data } = await axios.get('/api/books/');
                 setBooks(data);
             } catch (error) {
-                console.error("Error fetching books:", error);
+                console.error("Error fetching books:", error); //aqui solo añadi un catch para ver que fucks de error estaba sacando
             }
         }
         fetchBooks()
